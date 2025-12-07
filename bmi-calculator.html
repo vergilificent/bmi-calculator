@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>A frustratingly simple BMI calculator</title>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body>
+        <h1>Input your biometrics (EU): </h1>
+        <form id="bmi-form">
+        <div id="age">
+            <label for="age-input">Age:</label>
+            <input type="number" id="age-input" name="age" placeholder="Positive numbers only" required />
+        </div>
+        <div id="gender">
+        <p>Gender: 
+            <input type="radio" name="gender" id="male" value="male" required />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female" required />
+            <label for="female">Female</label>
+        </p>
+        </div>
+        <div id="height"> 
+                <label for="height-input">Height (m):</label>
+                <input type="number" id="height-input" name="height" step="0.1" placeholder="meters only" required />
+            </div>
+            <br>
+            <div id="weight">
+                <label for="weight-input">Weight (kg):</label>
+                <input type="number" id="weight-input" name="weight" step="0.1" placeholder="kg only" required />
+            </div>
+            <br>
+            <div id="button">
+            <button type="submit" id="button">Calculate BMI</button>
+            </div>   
+        </form>
+            <div id="result">Result: </div>   
+        <script src="frustratingly-simple-js-code-for-the-bmi-in-question.js"></script>
+    </body>
+</html>
