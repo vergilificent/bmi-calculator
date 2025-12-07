@@ -1,14 +1,10 @@
-/* how are we doing today? i forgot to the button in a div element. already fixed */
 div {
     text-align: center;
     font-family: 'Arial', sans-serif;
 }
-/* i REALLY should practice more coding, i completely forgot how to use css properly */
 body {
     background-color: rgb(30, 201, 135);
 }
-/* is the blue button and teal background a good choice of styling? probably not,
-does it really matter? no. */
 button {
     background-color: rgb(66, 135, 245);
     color: white;
@@ -33,8 +29,6 @@ button {
     font-family: 'Arial', sans-serif;
     color: #333;
 }
-/* this looks absolutely stunning
-i'm REALLY glad how this turned out. geniunely one of the best buttons i've seen in my entire life */
 #result {
     font-size: 24px;
     color: #333;
@@ -63,4 +57,3 @@ i'm REALLY glad how this turned out. geniunely one of the best buttons i've seen
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
-/* i am ABSOLUTELY COOKING LIKE THIS FELLA!! i never KNEW i had so much artistic creativity. */
